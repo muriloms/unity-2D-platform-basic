@@ -1,2 +1,2 @@
-# unity-2D-platform-basic
-Estrutura e mecânicas básicas para jogos plataforma 2D na Engine Unity
+# Unity Jogos Plataforma 2D
+## Estrutura e mecânicas básicas
