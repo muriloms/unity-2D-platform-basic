@@ -12,3 +12,4 @@ Um modo elegante onde o programador tem total controle sobre os parâmetros do G
 # Gravidade
 ## Implementar gravidade
 Quando adiciona ao Game Object o Rigidbody2D, a física de gravidade é implementada. Como estamos utilizando sistema de colisão baseado no Raycast, precisamos implmentar a gravidade com os códigos.
+- [codigos](scripts/player/stage_02/)
