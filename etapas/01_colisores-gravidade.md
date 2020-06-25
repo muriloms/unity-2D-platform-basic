@@ -15,3 +15,11 @@ Quando adiciona ao Game Object o Rigidbody2D, a física de gravidade é implemen
 - [codigos](../scripts/player/stage_02/)
 
 ![](../gift/playerGravidade.gif)
+
+
+# Colisores abaixo (Collision below)
+Implementar colisores na região inferior do player com raycast. Necessário definir LayerMask para identificar qual layer o objecto de contato possui, reagindo de forma específica.
+- [codigos](../scripts/player/stage_03/)
+
+
+![](../img/player/collisionBelow.png)  ![](../gift/playerCollisionBelow.gif)
