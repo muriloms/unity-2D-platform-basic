@@ -32,3 +32,4 @@ Definir condições para os movimentos do player. Isso permite melhor controle d
 - Está colidindo certo (Is Colliding Right)
 - Está colidindo à esquerda (Is Colliding Left)
 - Esta caindo (Is Falling)
+- [codigos](../scripts/player/stage_04/)
