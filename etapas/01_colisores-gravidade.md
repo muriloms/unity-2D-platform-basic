@@ -17,7 +17,7 @@ Quando adiciona ao Game Object o Rigidbody2D, a física de gravidade é implemen
 ![](../gift/playerGravidade.gif)
 
 
-# Colisores abaixo (Collision below)
+# Colisores verticais - abaixo (Collision below)
 Implementar colisores na região inferior do player com raycast. Necessário definir LayerMask para identificar qual layer o objecto de contato possui, reagindo de forma específica.
 - [codigos](../scripts/player/stage_03/)
 
@@ -38,3 +38,11 @@ Definir condições para os movimentos do player. Isso permite melhor controle d
 # Estados
 Definir um script para controlar os estados do player (andar, correr, pular, etc). Para cada estado criar um novo script referenciando o script controlador. Além disso, criar script motor para gerenciar a ativação dos estados
 - [codigos](../scripts/player/stage_05/)
+
+
+
+# Colisores horizontais (esquerda e direita)
+Implementar colisores na região lateral do player com raycast. 
+- [codigos](../scripts/player/stage_06/)
+
+![](../img/player/playerColHorLeft.png)   ![](../img/player/playerColHorRight.png)
