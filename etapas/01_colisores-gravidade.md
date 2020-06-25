@@ -23,3 +23,12 @@ Implementar colisores na região inferior do player com raycast. Necessário def
 
 
 ![](../img/player/collisionBelow.png)  ![](../gift/playerCollisionBelow.gif)
+
+
+# Condições
+Definir condições para os movimentos do player. Isso permite melhor controle do objeto e das animações.
+- Está colidindo abaixo (Is Colliding Below )
+- Está colidindo acima (Is Colliding Above )
+- Está colidindo certo (Is Colliding Right)
+- Está colidindo à esquerda (Is Colliding Left)
+- Esta caindo (Is Falling)
