@@ -33,3 +33,8 @@ Definir condições para os movimentos do player. Isso permite melhor controle d
 - Está colidindo à esquerda (Is Colliding Left)
 - Esta caindo (Is Falling)
 - [codigos](../scripts/player/stage_04/)
+
+
+# Estados
+Definir um script para controlar os estados do player (andar, correr, pular, etc). Para cada estado criar um novo script referenciando o script controlador. Além disso, criar script motor para gerenciar a ativação dos estados
+- [codigos](../scripts/player/stage_05/)
