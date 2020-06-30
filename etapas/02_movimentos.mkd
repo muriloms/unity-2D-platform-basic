@@ -1,0 +1,25 @@
+# Movimentos
+
+## Horizontal
+### Caminhar (walk)
+Criar um estado para movimento do player horizontalmente. Esse estado herda as configurações da classe estado, coletando o comando para movimento horizontal e atribuindo ao player velocidade e deslocamento no eixo x
+
+- [codigos](../scripts/player/stage_07/)
+
+![](../gift/playerAndar.gif)
+
+## Vertical
+
+## Pulo simples e pulo duplo
+
+- [codigos](../scripts/player/stage_08/)
+
+## Pulo
+Criar estado para movimento vertical do player, adicionando força ao eixo y quando acionado botão de pulo
+
+![](../gift/playerPulo.gif)
+
+## Pulo duplo
+No mesmo estado de movimento vertical, adicionar controle de vezes que o jogador acionou o pulo, verificando se o player está ou não em contato com o chão ou em queda
+
+![](../gift/playerDuplo.gif)

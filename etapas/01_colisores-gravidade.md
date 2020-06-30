@@ -12,24 +12,36 @@ Um modo elegante onde o programador tem total controle sobre os parâmetros do G
 # Gravidade
 ## Implementar gravidade
 Quando adiciona ao Game Object o Rigidbody2D, a física de gravidade é implementada. Como estamos utilizando sistema de colisão baseado no Raycast, precisamos implmentar a gravidade com os códigos.
+
 - [codigos](../scripts/player/stage_02/)
 
 ![](../gift/playerGravidade.gif)
 
 
-# Colisores verticais - abaixo (Collision below)
+# Colisores verticais 
+## Abaixo (Collision below)
 Implementar colisores na região inferior do player com raycast. Necessário definir LayerMask para identificar qual layer o objecto de contato possui, reagindo de forma específica.
+
 - [codigos](../scripts/player/stage_03/)
 
 
 ![](../img/player/collisionBelow.png)  ![](../gift/playerCollisionBelow.gif)
 
 
+## Acima (Collision above)
+
+Implementar colisores na região superior do player com raycast. Necessário definir LayerMask para identificar qual layer o objecto de contato possui, reagindo de forma específica.
+
+- [codigos](../scripts/player/stage_09/)
+
+
+![](../img/player/collisionAbove.png)  
+
 # Condições
 Definir condições para os movimentos do player. Isso permite melhor controle do objeto e das animações.
 - Está colidindo abaixo (Is Colliding Below )
 - Está colidindo acima (Is Colliding Above )
-- Está colidindo certo (Is Colliding Right)
+- Está colidindo à direita (Is Colliding Right)
 - Está colidindo à esquerda (Is Colliding Left)
 - Esta caindo (Is Falling)
 - [codigos](../scripts/player/stage_04/)
