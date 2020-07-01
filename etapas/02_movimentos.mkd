@@ -1,4 +1,4 @@
-# Movimentos
+# Movimentos 01
 
 ## Horizontal
 ### Caminhar (walk)
@@ -15,11 +15,12 @@ Criar um estado para movimento do player horizontalmente. Esse estado herda as c
 - [codigos](../scripts/player/stage_08/)
 
 ## Pulo
-Criar estado para movimento vertical do player, adicionando força ao eixo y quando acionado botão de pulo
+Criar estado para movimento vertical de pulo do player, adicionando força ao eixo y quando acionado botão de pulo
 
 ![](../gift/playerPulo.gif)
 
 ## Pulo duplo
 No mesmo estado de movimento vertical, adicionar controle de vezes que o jogador acionou o pulo, verificando se o player está ou não em contato com o chão ou em queda
 
-![](../gift/playerDuplo.gif)
+![](../gift/playerDuploPulo.gif)
+

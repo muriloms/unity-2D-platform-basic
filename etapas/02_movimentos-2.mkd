@@ -1,0 +1,16 @@
+# Movimentos 02
+
+## Agarrar-se à parede
+Criar estado para o diminuir a velocidade do player quando este entrar em contato com a parede, simulando como se estivesse se agarrando
+
+- [codigos](../scripts/player/stage_10/)
+
+![](../gift/playerAgarrarParede.gif)
+
+
+## Voar
+Criar estado para movimento vertical de voo do player, adicionando força ao eixo y quando acionado botão para voar
+
+- [codigos](../scripts/player/stage_11/)
+
+![](../gift/playerVoar.gif)

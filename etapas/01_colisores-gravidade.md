@@ -35,7 +35,7 @@ Implementar colisores na região superior do player com raycast. Necessário def
 - [codigos](../scripts/player/stage_09/)
 
 
-![](../img/player/collisionAbove.png)  
+![](../img/player/collisionAbove.png)  ![](../gift/playerCollisionAbove.gif)
 
 # Condições
 Definir condições para os movimentos do player. Isso permite melhor controle do objeto e das animações.
@@ -58,3 +58,5 @@ Implementar colisores na região lateral do player com raycast.
 - [codigos](../scripts/player/stage_06/)
 
 ![](../img/player/playerColHorLeft.png)   ![](../img/player/playerColHorRight.png)
+
+![](../gift/playerCollisionHorizontal.gif)
